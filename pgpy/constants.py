@@ -363,9 +363,8 @@ class HashAlgorithm(IntEnum):
     SHA384 = 0x09
     SHA512 = 0x0A
     SHA224 = 0x0B
-    #SHA3_256 = 13
-    #SHA3_384 = 14
-    #SHA3_512 = 15
+    SHA3_256 = 12
+    SHA3_512 = 14
 
     def __init__(self, *args):
         super(self.__class__, self).__init__()
